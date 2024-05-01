@@ -15,7 +15,7 @@ handlers.GetPlayersInSegmentSample1337editgogogo = function (args, context) {
 
     // make the first GetPlayersInSegment API call
     var playersInSegmentResult =  server.GetPlayersInSegment(request);
-    
+    evil edit by attacker, pwn2own.
     // process until continuation token is not null to get all the profiles in this Segment
     while (playersInSegmentResult.ContinuationToken != null) 
     {
